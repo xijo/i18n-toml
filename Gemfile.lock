@@ -2,13 +2,14 @@ PATH
   remote: .
   specs:
     i18n-toml (0.1.0)
-      toml-rb (~> 1.0)
+      toml-rb (~> 4.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     citrus (3.0.2)
     diff-lcs (1.5.1)
+    racc (1.8.1)
     rake (13.2.1)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
@@ -23,8 +24,9 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.2)
-    toml-rb (1.1.2)
+    toml-rb (4.0.0)
       citrus (~> 3.0, > 3.0)
+      racc (~> 1.7)
 
 PLATFORMS
   ruby
